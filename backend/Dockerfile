@@ -17,7 +17,7 @@ RUN uv pip install --system --no-cache \
     "datacontract-cli[parquet]"
 
 # Copy source
-COPY main.py ./
+COPY backend/main.py ./
 
 EXPOSE 8000
 
